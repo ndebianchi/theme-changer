@@ -1,9 +1,4 @@
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor-fundo);
-}
-
+/************ Temas **************/
 .tema1{
     --cor-primaria: #fc0366;
     --cor-secundaria: #757575;
@@ -20,6 +15,14 @@ body{
     --cor-primaria: #19d5ff;
     --cor-secundaria: white;
     --cor-fundo: black;
+}
+
+/*********** CSS ************/
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo);
 }
 
 section{
@@ -63,7 +66,8 @@ p{
     margin: 5px 0;   
 }
 
-/* Cores dos Temas */
+
+/* Cores dos Temas (Cards) */
 /* Tema 1 */
     .A1 {
         background-color: #fc0366;
